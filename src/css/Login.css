@@ -1,0 +1,43 @@
+.login {
+  width: 400px;
+  margin: 100px auto;
+  text-align: center;
+}
+.login img {
+  width: 200px;
+  margin-bottom: 20px;
+}
+.login input {
+  display: block;
+  height: 40px;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 0px 10px;
+  border: 2px solid #000;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+.login input[type="submit"] {
+  border-radius: 0px;
+  background-color: #0077b5;
+  border: 0;
+  color: #fff;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+.login h4 span {
+  color: #0077b5;
+  cursor: pointer;
+}
+@media only screen and (max-width: 300px) {
+  .login {
+    margin: 50vh auto;
+  }
+  .login input {
+    height: 10vh;
+    font-size: 23px;
+  }
+  .login h4 {
+    font-size: 23px;
+  }
+}
